@@ -1,6 +1,6 @@
 {
   "name": "viewport-height-fix",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A utility to fix the mobile 100vh issue by setting a --vh CSS variable.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
