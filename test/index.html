@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Viewport Height Fix Test</title>
+  <style>
+    body {
+      margin: 0;
+      background: #f0f0f0;
+    }
+    .vh-box {
+      width: 100vw;
+      height: calc(var(--vh, 1vh) * 100);
+      background: #4caf50;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="vh-box">100vh Box</div>
+  <script type="module" src="./test.js"></script>
+</body>
+</html>

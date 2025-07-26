@@ -1,0 +1,30 @@
+{
+  "name": "viewport-height-fix",
+  "version": "1.0.0",
+  "description": "A utility to fix the mobile 100vh issue by setting a --vh CSS variable.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "viewport",
+    "100vh",
+    "css",
+    "mobile",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+} 
